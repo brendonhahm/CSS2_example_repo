@@ -3,8 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-def add_two(x, y):
-    output = x + y
+def add_three(x, y, z):
+    output = x + y + z
     return output
 
-print(add_two(5, 9))
+print(add_three(5, 9, 10))
